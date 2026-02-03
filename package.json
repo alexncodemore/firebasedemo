@@ -2,10 +2,14 @@
   "name": "01-folder",
   "private": true,
   "version": "0.0.0",
+  
+  "homepage": "https://alexncodemore.github.io/firebasedemo/",
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "vite build react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -31,6 +35,5 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
-  },
-  "homepage": "https://alexncodemore.github.io/firebasedemo/"
+  }
 }
